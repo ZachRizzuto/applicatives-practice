@@ -13,7 +13,9 @@ export function getGreatestDiscoveryYear(data) {
     });
     asteroidYearArr.sort();
     const hashedYears = asteroidYearArr.forEach(function(i) {
-    /* Did some research on hashmaps and got a basic grasp of the concept so used it */
+    /* Did some research on hashmaps and got a basic grasp of the concept so used it.
+      Absolutely critique this I had a lot of fun building this function.
+      You can bash me if this is not a way I should have solved this. :) Thank you.*/
    	 if(yearCount[i] === undefined) {
     yearCount[i] = 0;
     }

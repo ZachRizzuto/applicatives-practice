@@ -16,9 +16,7 @@ export function lowMoonsPlanets(data) {
       return planet;
     }
   })
-  .map((planet) => {
-    return planet.name;
-  });
+  .map((planet) => planet.name);
 }
 
 // === TEST YOURSELF ===
